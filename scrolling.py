@@ -10,6 +10,17 @@ height = i75.height
 RED = graphics.create_pen(255, 0, 0)
 PURPLE = graphics.create_pen(255, 0, 255)
 BLACK = graphics.create_pen(0, 0, 0)
+GREEN = graphics.create_pen(0, 255, 0)
+ORANGE = graphics.create_pen(255, 125, 0)
+XX = graphics.create_pen(255, 125, 0)
+PINK = graphics.create_pen(180, 100, 100)
+MINT = graphics.create_pen(80, 180, 100)
+
+
+X = graphics.create_pen(255, 95, 0)
+
+BLUE = graphics.create_pen(0, 0, 255)
+
 
 def text(content, color, left, down, fontsize):
     graphics.set_pen(color)
@@ -43,7 +54,7 @@ def scroll_marquee(text_content, color, fontsize, scroll_speed, y_position):
 
 def main():
     clear_screen()
-    scroll_marquee('HELLO WORLD HOW ARE YOU?', PURPLE, 2, 0.05, 15)
+    scroll_marquee('<3 happy halloween!!!!!!!!!!!!', X, 6, 0.02, -6)
 
 
 if __name__ == "__main__":
